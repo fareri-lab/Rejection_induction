@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy2 Experiment Builder (v1.85.2),
-    on Tue Feb 26 10:16:40 2019
+    on March 04, 2019, at 15:19
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -40,7 +40,7 @@ filename = _thisDir + os.sep + 'data/%s_%s_%s_%s' %(expInfo['Subject'], expName,
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
     extraInfo=expInfo, runtimeInfo=None,
-    originPath=u'/Users/dfareri/Dropbox/Dominic/Github/fareri-lab/Rejection/practice/SocaMRI.psyexp',
+    originPath=u'C:\\Users\\farerilab\\Documents\\GitHub\\Rejection_induction\\practice\\SocaMRI.psyexp',
     savePickle=True, saveWideText=True,
     dataFileName=filename)
 # save a log file for detail verbose info
@@ -53,7 +53,7 @@ endExpNow = False  # flag for 'escape' or other condition => quit the exp
 
 # Setup the Window
 win = visual.Window(
-    size=(1440, 900), fullscr=True, screen=0,
+    size=(1920, 1080), fullscr=True, screen=0,
     allowGUI=False, allowStencil=False,
     monitor='testMonitor', color='black', colorSpace='rgb',
     blendMode='avg', useFBO=True)
@@ -67,10 +67,10 @@ else:
 # Initialize components for Routine "Instructions"
 InstructionsClock = core.Clock()
 InstrText = visual.TextStim(win=win, name='InstrText',
-    text=u"Participants at other study sites rated whether they liked you based on your picture. \n\n\nDuring this task, your job is to guess whether or not each person liked you. After that, you will be shown what they said.\n\n\n\n\n\nPress 'Yes' to see a demonstration.",
-    font=u'Arial',
+    text="Participants at other study sites rated whether they liked you based on your picture. \n\n\nDuring this task, your job is to guess whether or not each person liked you. After that, you will be shown what they said.\n\n\n\n\n\nPress 'Yes' to see a demonstration.",
+    font='Arial',
     pos=[0, 0], height=0.1, wrapWidth=1.5, ori=0, 
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=0.0);
 
 # Initialize components for Routine "PracticeDirections"
@@ -1106,7 +1106,7 @@ thisExp.nextEntry()
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
-trials_4 = data.TrialHandler(nReps=1, method='sequential', 
+trials_4 = data.TrialHandler(nReps=0, method='sequential', 
     extraInfo=expInfo, originPath=-1,
     trialList=data.importConditions('conditions/ShortSocaMotivePracticeEncodeConditions.xlsx'),
     seed=None, name='trials_4')
@@ -1449,7 +1449,7 @@ for thisTrial_4 in trials_4:
             thisComponent.setAutoDraw(False)
     thisExp.nextEntry()
     
-# completed 1 repeats of 'trials_4'
+# completed 0 repeats of 'trials_4'
 
 
 # ------Prepare to start Routine "Finished_"-------

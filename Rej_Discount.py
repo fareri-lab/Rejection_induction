@@ -22,8 +22,8 @@ _thisDir = os.path.dirname(os.path.abspath(__file__))
 os.chdir(_thisDir)
 
 # Store info about the experiment session
-expName = 'SocaMemMRIAdult'  # from the Builder filename that created this script
-expInfo = {u'Version': u'1A', u'mriMode': u'on', u'Subject': u'SocaMRI'}
+expName = 'Rej_Discount'  # from the Builder filename that created this script
+expInfo = {u'Version': u'1A', u'mriMode': u'on', u'Subject': u'Rej_Discount'}
 dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False: core.quit()  # user pressed cancel
 expInfo['date'] = data.getDateStr()  # add a simple timestamp
@@ -308,7 +308,7 @@ for thisRunLooper in runLooper:
     Get_ReadyClock.reset()  # clock 
     frameN = -1
     # update component parameters for each repeat
-    getReadyText.setText('Get Ready!')
+    getReadyText.setText('Get Ready! Press Spacebar to begin the task.')
     advanceScreen = event.BuilderKeyResponse()  # create an object of type KeyResponse
     advanceScreen.status = NOT_STARTED
     # keep track of which components have finished
@@ -385,7 +385,7 @@ for thisRunLooper in runLooper:
     runLooper.addData('advanceScreen.keys',advanceScreen.keys)
     if advanceScreen.keys != None:  # we had a response
         runLooper.addData('advanceScreen.rt', advanceScreen.rt)
-    
+    '''
     #------Prepare to start Routine "WaitScanner"-------
     t = 0
     WaitScannerClock.reset()  # clock 
@@ -478,7 +478,7 @@ for thisRunLooper in runLooper:
     if scannerAdvance.keys != None:  # we had a response
         thisExp.addData('scannerAdvance.rt', scannerAdvance.rt)
     thisExp.nextEntry()
-    
+    '''
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler(nReps=1, method='sequential', 
         extraInfo=expInfo, originPath=None,

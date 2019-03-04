@@ -1,6 +1,0 @@
-Run,Cue,Jitter,Eval,runLooper.thisRepN,runLooper.thisTrialN,runLooper.thisN,runLooper.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,advanceScreen.keys,advanceScreen.rt,scannerAdvance.keys,scannerAdvance.rt,Prediction_Response.keys,Prediction_Response.rt,Version,frameRate,expName,date,mriMode,Subject,
-Run1,,,,0,0,0,0,,,,,space,0.00026798248291,equal,3.78999304771,,,1A,59.9797222028,SocaMemMRIAdult,2019_Feb_25_1732,off,SocaMRI,
-Run1,stim/Female_Creative_Commons_Stockvault_20.jpg,4.5,Yes,0,0,0,0,0,0,0,0,,,,,1,1.60380077362,1A,59.9797222028,SocaMemMRIAdult,2019_Feb_25_1732,off,SocaMRI,
-Run1,stim/EMImale21-2happy_edited.jpg,3.5,No,0,0,0,0,0,1,1,1,,,,,2,0.84795999527,1A,59.9797222028,SocaMemMRIAdult,2019_Feb_25_1732,off,SocaMRI,
-Run1,stim/Female_Teen_Smile_Creative_Commons_WikiMedia_40_edited.jpg,3.0,No,0,0,0,0,0,2,2,2,,,,,1,1.03333282471,1A,59.9797222028,SocaMemMRIAdult,2019_Feb_25_1732,off,SocaMRI,
-Run1,stim/Female_Creative_Commons_Stockvault_16.jpg,2.5,No,0,0,0,0,0,3,3,3,,,,,2,1.1138689518,1A,59.9797222028,SocaMemMRIAdult,2019_Feb_25_1732,off,SocaMRI,
