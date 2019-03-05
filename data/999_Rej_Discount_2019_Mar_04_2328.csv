@@ -1,0 +1,6 @@
+Run,Cue,Jitter,Eval,runLooper.thisRepN,runLooper.thisTrialN,runLooper.thisN,runLooper.thisIndex,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,advanceScreen.keys,advanceScreen.rt,Prediction_Response.keys,Prediction_Response.rt,Version,frameRate,expName,date,mriMode,Subject,
+Run1,stim/58_smile_edited.jpg,4.0,No,0,0,0,0,0,0,0,0,space,1.54698085785,1,1.24341011047,1A,59.7132151114,Rej_Discount,2019_Mar_04_2328,off,999,
+Run1,stim/cc_11_edited.jpg,1.5,Yes,0,0,0,0,0,1,1,1,,,2,0.827110052109,1A,59.7132151114,Rej_Discount,2019_Mar_04_2328,off,999,
+Run1,stim/cc_22_edited.jpg,4.5,Yes,0,0,0,0,0,2,2,2,,,None,,1A,59.7132151114,Rej_Discount,2019_Mar_04_2328,off,999,
+Run1,stim/cc_9_edited.jpg,2.5,No,0,0,0,0,0,3,3,3,,,1,1.72218298912,1A,59.7132151114,Rej_Discount,2019_Mar_04_2328,off,999,
+Run1,stim/edited_63_smile.jpg,3.0,Yes,0,0,0,0,0,4,4,4,,,2,1.16080904007,1A,59.7132151114,Rej_Discount,2019_Mar_04_2328,off,999,
