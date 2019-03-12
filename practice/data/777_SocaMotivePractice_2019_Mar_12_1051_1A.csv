@@ -1,0 +1,7 @@
+Cue,CorrAns,Eval,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,ensureResponse.thisRepN,ensureResponse.thisTrialN,ensureResponse.thisN,ensureResponse.thisIndex,understand.keys,understand.rt,key_resp_10.keys,key_resp_10.rt,Prediction_Response.keys,Prediction_Response.rt,date,expName,Version,frameRate,Subject,
+,,,,,,,,,,,1,1.69938898087,,,,,2019_Mar_12_1051,SocaMotivePractice,1A,60.1663419966,777,
+,,,,,,,,,,,,,1,1.13625097275,,,2019_Mar_12_1051,SocaMotivePractice,1A,60.1663419966,777,
+stim/Smile_1.jpg,1,Yes,0,0,0,0,0,0,0,0,,,,,1,0.674788951874,2019_Mar_12_1051,SocaMotivePractice,1A,60.1663419966,777,
+stim/Smile_1.jpg,1,Yes,0,0,0,0,,,,,,,,,,,2019_Mar_12_1051,SocaMotivePractice,1A,60.1663419966,777,
+stim/Smile_2.jpg,2,No,0,1,1,1,0,0,0,0,,,,,None,,2019_Mar_12_1051,SocaMotivePractice,1A,60.1663419966,777,
+stim/Smile_2.jpg,2,No,0,1,1,1,1,0,1,0,,,,,None,,2019_Mar_12_1051,SocaMotivePractice,1A,60.1663419966,777,
